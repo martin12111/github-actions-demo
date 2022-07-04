@@ -1,4 +1,4 @@
-name: Essai 5, spacy 3.0
+name: Essai 5, telle version de pytest
 on: [push]
 jobs:
   build:
