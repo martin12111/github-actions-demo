@@ -1,4 +1,4 @@
-name: Essai 4, Python 3.10.5, requirements.txt ajout de spacy, run make install sans |
+name: Essai 4, remplace
 on: [push]
 jobs:
   build:
@@ -11,3 +11,4 @@ jobs:
         python-version: 3.10.5
     - name: Install dependencies
       run: pip install --upgrade pip
+      run: pip install -r requirements.txt
