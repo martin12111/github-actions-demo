@@ -1,5 +1,5 @@
-spacy==3.0
-pytest
+spacy
+pytest==7.1.2
 click
 pylint
 pytest-cov
