@@ -10,3 +10,7 @@ def test_add_2():
     assert 1 == add(0, 1)
     assert 3 == add(2, 1)
     assert 7 == add(2, 5)
+    
+def test_add_3():
+    assert 3 == add(2, 1)
+    assert 5 == add(4, 1)
