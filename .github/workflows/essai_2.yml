@@ -1,4 +1,4 @@
-name: Essai 2, Python 3.10.5, requirements : ajout de spacy
+name: Essai 2, Python 3.10.5, requirements.txt ajout de spacy
 on: [push]
 jobs:
   build:
