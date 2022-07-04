@@ -1,4 +1,4 @@
-name: Essai 3, Python 3.10.5, requirements.txt ajout de spacy
+name: Essai 3, Python 3.10.5, requirements.txt ajout de spacy, run make install sans |
 on: [push]
 jobs:
   build:
