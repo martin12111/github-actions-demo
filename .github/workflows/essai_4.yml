@@ -1,4 +1,4 @@
-name: Essai 4, remplace
+name: Essai 4, remplace make install
 on: [push]
 jobs:
   build:
