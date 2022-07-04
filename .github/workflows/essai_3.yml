@@ -1,4 +1,4 @@
-name: Essai 2, Python 3.10.5, requirements : ajout de spacy, run make install sans aller à la ligne
+name: Essai 2, Python 3.10.5, requirements : ajout de spacy
 on: [push]
 jobs:
   build:
@@ -10,4 +10,5 @@ jobs:
       with:
         python-version: 3.10.5
     - name: Install dependencies
-      run: make install
+      run: |
+        make install
